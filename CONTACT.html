@@ -29,7 +29,7 @@
         .back {
             background-color: rgba(0, 0, 0, 0.747);
             height: 92vh;
-            width: 99vw;
+            width: 100vw;
             display: flex;
         }
 
@@ -40,6 +40,40 @@
             height: 55vh;
             width: 50vw;
             border-radius: 25px;
+            padding: 30px;
+        }
+
+        .F-input {
+            margin-top: 80px
+        }
+
+        .F-in {
+            border-radius: 25px;
+            border: 0;
+            background-color: rgba(247, 247, 247, 255);
+            height: 35px;
+            width: 290px;
+            margin-left: px;
+            padding-left: 20px;
+        }
+
+        .meg {
+            margin-top: 50px;
+            border-radius: 25px;
+            border: 0;
+            background-color: rgba(247, 247, 247, 255);
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+
+        .F-btn {
+            margin-top: 40px;
+            height: 40px;
+            width: 200px;
+            border-radius: 25px;
+            border: 0;
+            background-color: rgb(166, 49, 53);
+            color: white;
         }
 
         .contact {
@@ -49,10 +83,6 @@
             margin-left: 40px;
             margin-top: 153px;
             border-radius: 25px;
-        }
-
-        p {
-            color: aliceblue;
         }
 
         .number {
@@ -75,7 +105,8 @@
             margin-left: 70px;
             color: white;
         }
-        .co-2{
+
+        .co-2 {
             margin-top: 15px;
         }
     </style>
@@ -85,7 +116,16 @@
     <div class="container-C01">
         <div class="back">
             <div class="foam">
-
+                <h2>LET'S GET IN TOUCH</h2>
+                <div class="F-input">
+                    <input type="text" class="F-in F-Name" placeholder="YOUR NAME..">
+                    <input type="text" class="F-in F-email" placeholder="YOU'R EMAIL..">
+                    <input type="text" class="F-in F-subject" placeholder="SUBJECT..">
+                </div>
+                <div class="message">
+                    <textarea class="meg" cols="130" rows="10" placeholder="YOU'R MESSAGE"></textarea>
+                </div>
+                <button class="F-btn">SEND MESSAGE NOW</button>
             </div>
             <div class="contact">
                 <div class="number">
